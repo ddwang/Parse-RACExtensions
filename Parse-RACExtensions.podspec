@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '6.0'
   s.source_files = 'Parse-RACExtensions'
   s.requires_arc = true
-  s.dependency 'Parse', '~> 1.3.0'
+  s.dependency 'Parse', '~> 1.3'
   s.dependency 'ReactiveCocoa', '~> 2.1'
   s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"${PODS_ROOT}/Parse"' }
 end
